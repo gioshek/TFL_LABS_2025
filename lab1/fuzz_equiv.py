@@ -26,7 +26,7 @@ T: List[Tuple[str, str]] = [
     ("aaaaa", "a"),
     ("aaaba", "bba"),
     ("aaaabb", "bb"),
-    ("abb", "abaaaa"),
+    ("abaaaa", "abb"),
     ("abaaab", "ab"),
     ("baaaab", "bab"),
     ("bbaaaa", "bb"),
@@ -34,11 +34,12 @@ T: List[Tuple[str, str]] = [
     ("baabaab", "baaab"),
     ("babaaba", "bab"),
     ("babaabb", "babaaa"),
-    ("aab", "ab"),
-    ("bb", "ab"),
+    ("baba", "aba"),
     ("bab", "ab"),
-    ("abaaaa", "ab"),
+    ("aab", "ab"),
     ("aba", "ab"),
+    ("abb", "ab"),
+    ("bb", "ab"),
 ]
 
 # -------------------------
